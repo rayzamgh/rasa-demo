@@ -1,0 +1,22 @@
+version: "2.0"
+
+rules:
+  - rule: Say ellips_aman_digunakan_anak
+    steps:
+      - intent: ellips_aman_digunakan_anak
+      - action: utter_ellips_aman_digunakan_anak
+
+  - rule: Say ellips_latar_belakang
+    steps:
+      - intent: ellips_latar_belakang
+      - action: utter_ellips_latar_belakang
+
+  - rule: Say ellips_aman_digunakan_hamil
+    steps:
+      - intent: ellips_aman_digunakan_hamil
+      - action: utter_ellips_aman_digunakan_hamil
+
+  - rule: Say ellips_beli_di_mana
+    steps:
+      - intent: ellips_beli_di_mana
+      - action: utter_ellips_beli_di_mana

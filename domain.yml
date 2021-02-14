@@ -1,0 +1,35 @@
+version: "2.0"
+
+actions:
+  - utter_greet
+  - utter_ellips_latar_belakang
+  - utter_cellips_aman_digunakan_anak
+  - utter_ellips_aman_digunakan_hamil
+  - utter_ellips_beli_di_mana
+
+intents:
+  - greet
+  - ellips_aman_digunakan_anak
+  - ellips_latar_belakang
+  - ellips_aman_digunakan_hamil
+  - ellips_beli_di_mana
+
+responses:
+  utter_greet:
+    - text: "halo! ada yang bisa saya bantu?"
+
+  utter_ellips_latar_belakang:
+    - text: "Penampilan sempurna tidak akan lengkap tanpa rambut yang juga tertata sempurna sehingga sangat penting bagi wanita untuk menjaga kesehatan dan penampilan rambut mereka. Produk perawatan rambut Ellips hadir sebagai solusi untuk menjaga kesehatan rambut yang mudah dan praktis untuk digunakan sehari-hari."
+
+  utter_cellips_aman_digunakan_anak:
+    - text: "Aman digunakan sesuai dengan petunjuk penggunaan produk."
+
+  utter_ellips_aman_digunakan_hamil:
+    - text: "Aman digunakan sesuai dengan petunjuk penggunaan produk. Namun apabila Ibu merasa kurang nyaman, Ibu dapat berkonsultasi terlebih dahulu ke Dokter Kandungan."
+
+  utter_ellips_beli_di_mana:
+    - text: "Ellips sangat mudah ditemukan di toko yang menjual produk kecantikan seperti Watson, Guardian, Indomaret, Alfamart, Hypermart, Carefour, Aeon, Lulu, Hari Hari, dan toko lainnya di sekitar Anda, maupun official Kino store di ecommerce, seperti Lazada dan Tokopedia"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

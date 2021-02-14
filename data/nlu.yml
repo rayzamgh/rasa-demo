@@ -1,0 +1,51 @@
+version: "2.0"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - good morning
+      - good evening
+      - hey there
+      - Hi
+      - halo bot
+      - pagi bot
+      - siang bot
+      - malam bot
+
+  - intent: ellips_aman_digunakan_anak
+    examples: |
+      - apakah produk Ellips aman digunakan anak 17 tahun kebawah?
+      - apakah ellips dary shampoo boleh digunakan oleh anak di bawah 12thn?
+      - apakah ellips bisa digunakan untuk anak kecil? 
+      - apakah produk ellips cocok untuk anak - anak?
+      - ellips boleh digunakan umur berapa?
+      - amankah jika digunakan untuk anak-anak ?
+      - apakah produk Ellips aman dipakai untuk anak anak ?
+
+  - intent: ellips_latar_belakang
+    examples: |
+      - Apa yang melatar belakangi dikeluarkannya produk Ellips?
+
+  - intent: ellips_aman_digunakan_hamil
+    examples: |
+      - apakah produk Ellips aman digunakan oleh Ibu hamil?
+      - apakah ellips semua varian ellips aman digunakan oleh wanita hamil dan menyusui?
+      - apakah ellips aman digunakan untuk ibu hamil atau ibu menyusui? 
+      - apakah Ellips boleh dipakai untuk ibu hamil dan menyusui?
+      - apakah ellips aman untuk ibu hamil
+      - apakah ellips aman untuk ibu menyusui
+      - apakah ellips aman di pakai ibu hamil dan menyusui?
+      - apakah produk Ellips aman untuk Ibu hamil , menyusui dan melahirkan ?
+
+  - intent: ellips_beli_di_mana
+    examples: |
+      - dimana sajakah produk Ellips dapat dibeli?
+      - ellips dapat dibeli dimana saja? 
+      - dimana saja ellips dry shampoo bisa dibeli? 
+      - ellips dry shampoo lebih mudah ditemui di outlet apa?
+      - ellips bisa didapatkan dimana?
+      - saya cari ellips di alfamart kosong, saya bisa beli dimana
+      - kenapa Ellips susah banget ditemuin

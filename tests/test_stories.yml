@@ -1,0 +1,58 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+  - story: ellips aman digunakan anak
+    steps:
+      - user: |
+          halo bot!
+        intent: greet
+      - action: utter_greet
+      - user: |
+          apakah ellips aman digunakan untuk anak?
+        intent: ellips_aman_digunakan_anak
+      - action: utter_ellips_aman_digunakan_anak
+
+  - story: ellips aman digunakan anak 2
+    steps:
+      - user: |
+          halo bot!
+        intent: greet
+      - action: utter_greet
+      - user: |
+          ellips aman gak ya digunakan buat anak?
+        intent: ellips_aman_digunakan_anak
+      - action: utter_ellips_aman_digunakan_anak
+
+  - story: ellips latar belakang
+    steps:
+      - user: |
+          selamat pagi bot!
+        intent: greet
+      - action: utter_greet
+      - user: |
+          apa latar belakang keluarnya produk elips ya?
+        intent: ellips_latar_belakang
+      - action: utter_ellips_latar_belakang
+
+  - story: ellips aman digunakan hamil
+    steps:
+      - user: |
+          selamat siang bot!
+        intent: greet
+      - action: utter_greet
+      - user: |
+          apa ellips aman digunakan saat hamil ya?
+        intent: ellips_aman_digunakan_hamil
+      - action: utter_ellips_aman_digunakan_hamil
+
+  - story: ellips beli dimana
+    steps:
+      - user: |
+          selamat pagi bot!
+        intent: greet
+      - action: utter_greet
+      - user: |
+          produk ellips belinya dimana ya?
+        intent: ellips_beli_di_mana
+      - action: utter_ellips_beli_di_mana
